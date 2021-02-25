@@ -1,0 +1,409 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+#LogoMenuBlock
+{
+ background-color:#fff; 
+ height: 70px;
+ box-shadow: 1px 1px 5px 1px #eee; 
+ display: flex;
+ align-items: center;
+}
+
+
+#LogoMenuBlock article
+{
+    margin: 0 auto;
+    width: 1340px;
+
+}
+
+#logo
+{
+    width: 81px;
+    height: 29px;
+    fill: #ee2e24;
+}
+.logoBlock
+{
+    width:60%;
+    float: left;
+    padding-top: 20px;
+}
+.MenuBlock
+{
+    width: 40%;
+    float: left;
+}
+
+#wizard-logo
+{
+    width: 25px;
+    height: 19px;
+    background-color: #111;
+    padding: 8px;
+    border-radius: 3px;
+    
+}
+
+.MenuBlock  ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.MenuBlock  ul li
+{
+    display: inline-block;
+    border-right:1px solid #eee ;
+}
+.MenuBlock   ul li a
+{
+    padding: 20px 7px;
+    display: block;
+    text-decoration: none;
+}
+.memberClass1
+{
+    font-size: 14px;
+}
+.memberClass2
+{
+    font-size: 11px;
+}
+
+.MenuBlock .MenuLeft
+{
+    width: 10%;
+    float: left;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.MenuBlock .MenuRight
+{
+    width: 40%;
+    float: left;
+    padding-top: 13px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+/*city css start here*/
+
+#city{
+    background-color: #eee;
+    height: 40px;
+}
+
+#city article{
+    width: 90%;
+    margin: 0 auto;
+}
+#city ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#city ul li{
+    float: left;
+    margin:0px 8px;
+}
+#city ul li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: #666;
+    text-decoration: none;
+}
+#city ul li a::after{
+    content: '^';
+    margin: 0px 3px;
+    line-height: 10px;
+}
+
+/* sliderblock starts here*/
+
+#sliderBlock{
+    background: linear-gradient(135.46deg, #d11450,#df293a);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#sliderBlock article{
+    width: 90%;
+    margin: 0 auto;
+}
+#sliderBlock h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 10px 10px 20px;
+    color: #fff;
+}
+#sliderBlock>article>main>form>span>input:nth-child(1){
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+#sliderBlock>article>main>form>span>{
+    width: 30;
+    position: relative;
+}
+#nearme{
+position: absolute;
+background-color: gray;
+padding: 5px 10px;
+border-radius: 20px;
+right: 8px;
+top: 14px;
+font-size: 13px;
+color: #111;
+font-weight: 800;
+}
+
+#sliderBlock>article>main>form>input:nth-child(2){
+    width: 20%;
+    border-left: 1px solid#999;
+    border-right: 1px solid#999;
+}
+
+#sliderBlock>article>main>form>input:nth-child(3)::placeholder{
+    width: 20%;
+}
+#sliderBlock>article>main>form>input{
+    padding: 18px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#sliderBlock>article>main>form{
+    display: flex;
+    justify-content: center;
+    /*align-items: center*/
+}
+#sliderBlock>article>main>form>button{
+    background-color: #1ab64f;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+#addBlock article{
+     width: 90%;
+     margin: 0 auto;
+}
+#addBlock article img{
+    width: 100%;
+    height: 140px;
+    border-radius: 4px;
+}
+#addBlock article figure{
+    margin: 40px 0;
+}
+#saveBlock article{
+    width: 90%;
+    margin: 0 auto;
+}
+#saveBlock article h1{
+    font-weight: bold;
+    font-size: 26px;
+    scrollbar-arrow-color: #000;
+}
+#saveBlock article main div{
+    width: 33%;
+    height: 200px;
+    overflow: hidden;
+}
+#saveBlock article main div img{
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+}
+#saveBlock article main{
+    display: flex;
+    justify-content: space-between;
+}
+#saveBlock article main div img:hover{
+    transform: scale(1.1);
+    transition: ease all 0.7s;
+}
+#HotelsAndHome article
+{
+    width: 90%;
+    margin: 0 auto;
+}
+#HotelsAndHome article main
+{
+    display: flex;
+}
+#HotelsAndHome article main .leftMain
+{
+    width: 40%;
+    background-color: #1ab64f;
+}
+#HotelsAndHome article main .rightMain
+{
+    width: 60%;
+    background-color: #999;
+}
+.leftMain section
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 30px 20px;
+    background-color: #ededed;
+    box-shadow: 0 8px 22px 0 hsla(0, 0%, 58%, 0.18);
+    border-bottom: 1px solid #d4d4d4;
+
+}
+.leftMain figure
+{
+    margin: 0;
+    padding: 0;
+}
+.leftMain img
+{
+    width: 80px;
+    height: 80px ;
+    border-radius: 100%;
+}
+.innerBlockLeft
+{
+    widows: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.innerBlockRight{
+    width: 75%;
+}
+.leftMain section:hover{
+    border-left: 3px solid #ee2e24;
+    background-color: #fff;
+    transition: ease all 0.4s;
+    cursor: pointer;
+}
+.leftMain section .innerBlockLeft figcaption{
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 2px 1px #ccc;
+    font-size: 13px;
+    margin: -19px 0 14px;
+}
+.leftMain section .innerBlockLeft figcaption :nth-child(2){
+    background-color: #ee2e24 !important;
+    color: white;
+}
+.redcaption{
+    background-color: #ee2e24 !important;
+    color: white;
+}
+.blackcaption{
+    background-color: black !important;
+    color: white;
+}
+.rightMain figure{
+    margin: 0;
+    padding: 0;
+}
+.rightMain img{
+width: 100%;
+}
+/*----hotel chaon starts block here*/
+#HotelChain{
+    background-color: #f3f5f7;
+    height: 500px;
+    margin-top: 40px;
+}
+#HotelChain article{
+    display: flex;
+}
+
+.leftHotelChain{
+    width: 50%;
+    background:url("./images/hotel/c.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.leftHotelChain figure{
+    margin: 0;
+    padding: 0;
+}
+.leftHotelChain img{
+    width: 115px;
+    height: 115px;
+}
+
+.rightHotelChain{
+    width: 50%;
+    padding: 50px 0;
+}
+.rightHotelChain main{
+    display: flex;
+    margin: 40px 0;
+    transform: skewX(-30deg);
+}
+.rightHotelChain main div{
+    width: auto;
+    transform: skewX(-30deg);
+    padding: 0 17px;
+}
+.inside{
+    transform: skewX(30deg) !important;
+}
+.middleone{
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+}
+.rightHotelChain div h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+.rightHotelChain div p{
+    margin: 0;
+    color: #666;
+}
+.rightHotelChain ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.rightHotelChain ul li{
+    width: 30%;
+    padding: 20px 0;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+}
+.rightHotelChain ul li span{
+    height: 8px;
+    width: 8px;
+    background-color: #111;
+    display: block;
+    text-indent: -9999px;
+    border-radius: 100%;
+    font-variant-position: absolute;
+    top: 27px;
+    left: -20px;
+}
